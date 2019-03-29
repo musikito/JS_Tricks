@@ -13,7 +13,7 @@ function launch_rocket(){
     warning_msg();
   }
 }//launch_rocket
-
+ 
 launch_rocket();
 /*
 console.error even print the stack trace:
