@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DOM Loaded.</title>
+    <script type="text/javascript">
+      function load(){
+        console.log("DOM Loaded.");
+      }
+      if(document.readyState === "loading"){
+        document.addEventListener("DOMContentLoaded", load);
+      }else{
+        load();
+      }
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
